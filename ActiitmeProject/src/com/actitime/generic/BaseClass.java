@@ -34,7 +34,7 @@ public class BaseClass {
 	@AfterClass
 	public void closeBrowser() {
 		Reporter.log("closeBrowser",true);
-	//	driver.close();
+		driver.close();
 
 	}
 	@BeforeMethod
